@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;700;800&family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+            color: #5d5d5a;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #ffa45c;
+        }
+        fieldset{
+            width: 350px;
+            border: 2px solid #ffcdab;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 200px auto;
+        }
+        .text{
+            width: 315px;   
+        }
+        .text label{
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .text input{
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            width:100%;
+        }
+        .btn{
+            border-radius: 10px;
+            border: 2px solid  #5d5d5a;
+            padding: 10px 15px;
+            background-color: #5d5d5a;
+            color:#fff4e3;
+            margin-right: 10px;
+        }
+        .reg{
+
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>
+                <i class="fas fa-lock text-light fa-fw"></i>
+                Login
+            </legend>
+            <div class="text">
+                <label for="user" class="text-light">
+                    <i class="far fa-user text-light fa-fw"></i>
+                    User Name:
+                </label>
+                <input type="text">
+            </div>
+            <div class="text">
+                <label for="password" class="text-light">
+                    <i class="fas fa-key text-light fa-fw" ></i>
+                    Password:
+                </label>
+                <input type="password">
+            </div>
+            <button class="btn">
+                <i class="fas fa-lock-open text-light fa-fw"></i>
+                login
+            </button>
+            <a href="#" class="reg">Register</a><br>
+        </fieldset>
+    </form>
+
+</body>
+</html>

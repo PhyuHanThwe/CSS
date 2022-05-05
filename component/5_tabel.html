@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Design</title>
+
+    <Style>
+        .tabel{
+            width: 70%;
+            /* background-color: #e3e3e3; */
+            border: 1px solid #0000; 
+            border-collapse: collapse;
+            transition: 0.5s;
+        }
+        .tabel thead{
+            text-align: left;
+        }
+        .tabel th{
+            background-color:rgb(201, 197, 197);
+        }
+        .tabel th, .tabel td, .tabel tr{
+            padding: 10px 15px;
+            /* border: 1px solid #eee; */
+        }
+        .tabel tr:nth-child(even){
+            background-color:rgb(230, 226, 226);
+        }
+        .tabel tr:hover{
+            background-color: rgb(165, 164, 164);
+            color: rgb(252, 249, 244);
+        }
+
+    </Style>
+
+</head>
+<body>
+   
+    <table class="tabel">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>City</th>
+                <th>Age</th>
+                <th>Work Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PhyuHan</td>
+                <td>Data Scientist</td>
+                <td>Myanmar</td>
+                <td>24</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>PhyuHanThwe</td>
+                <td>Web Developer</td>
+                <td>Myanmar</td>
+                <td>22</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Min Thant</td>
+                <td>Business Man</td>
+                <td>Myanmar</td>
+                <td>24</td>
+                <td>2</td>
+            </tr><tr>
+                <td>Phyu</td>
+                <td>Seinor Data Scientist</td>
+                <td>Austrialia</td>
+                <td>27</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

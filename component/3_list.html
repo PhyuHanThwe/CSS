@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List and Menu</title>
+
+    <style>
+        body{
+            background: #deaaff;
+            padding: 10px;
+            width: 150px;
+        
+        }
+        .test-list{
+            list-style-type: none;
+            /* width: 100px; */
+            font-family: sans-serif;
+            padding-left: 0;
+
+        }
+        .test-list li{
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            width: 130px;
+            border-left: 2px solid #bc80f7;
+            transition: 0.5s;
+            color: violet;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        .test-list li:hover{
+            border-left-width: 4px;
+            background-color: #c27dd6;
+            color: white;
+        }
+        .box{
+            width: 170px;
+            border: 2px solid white;
+            padding: 10px;
+        }
+        .test{
+            border: 3px solid white;
+            padding: 10px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            color: violet;
+            background-color: white;
+        }
+        nav{
+            width: 150px;
+        }
+        .nav-bar{
+            list-style-type: none;
+            padding: 0;
+            background-color: white;
+        }
+        .nav-item{
+            display: inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="box">
+    <legend class="test">List Test</legend>
+    <ul class="test-list">
+        <li>Home</li>
+        <li>News</li>
+        <li>About</li>
+        <li>Our Services</li>
+        <li>Contact Us</li>
+    </ul>
+    
+</fieldset>
+
+<nav>
+    <ul class="nav-bar">
+        <li class="nav-item">News</li>
+        <li class="nav-item">Home</li>
+        <li class="nav-item">About</li>
+        <li class="nav-item">Our Services</li>
+        <li class="nav-item">Contact Us</li>
+    </ul>
+</nav>
+</body>
+</html>
